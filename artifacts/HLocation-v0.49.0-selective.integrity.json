@@ -1,0 +1,27 @@
+{
+  "apk": {
+    "sha256": "4281aa65ce345fdda0b07cc35c8a1f1837f0c1b94927c2571c8c93c09b68f654",
+    "size": 31171756
+  },
+  "dex": {
+    "classes.dex": {
+      "sha256": "70fa5cad44c91e2f3ad4788c43516bce83f4bafc1ff215466a39a3967d7a8960",
+      "size": 10977796
+    }
+  },
+  "immutableClassSetSha256": "b899d8699ec269165c2929edc580dc432907b26178e8aaf5f26d9e27b126e7dd",
+  "namespaceAggregate": {
+    "entryCount": 178,
+    "policyFlags": 3,
+    "sha256": "1471d4493bfbb510d921d23bb34272d6024b3574f5aa3e9f6ab44713f721095c",
+    "totalUncompressedSize": 40414727
+  },
+  "nativeRuntimeGuard": true,
+  "profileVersion": "0.4.0",
+  "protectedPayload": {
+    "entry": "assets/hlocation/control.bin",
+    "sha256": "3f5e9447e9489cb0495209cc60541fa5d4bc3ed42d5e139a348512a90971f712",
+    "size": 116516
+  },
+  "signingCertificateSha1": "3972fabf7691850bc6746b6f9e66cb7cad323271"
+}

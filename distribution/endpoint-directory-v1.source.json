@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "issuedAtEpochSeconds": 1785780890,
+  "refreshAfterEpochSeconds": 1785867290,
+  "staleAfterEpochSeconds": 1786385690,
+  "repository": {
+    "owner": "sparr-sherrya",
+    "repo": "hlocation-releases",
+    "ref": "main"
+  },
+  "endpoints": [
+    {
+      "id": "jsdmirror-com",
+      "family": "JSD_MIRROR",
+      "baseUrl": "https://cdn.jsdmirror.com",
+      "strategy": "JSDELIVR_GITHUB",
+      "priority": 10,
+      "enabled": true,
+      "supportsEtag": true,
+      "supportsCacheBucket": true
+    },
+    {
+      "id": "jsdmirror-cn",
+      "family": "JSD_MIRROR",
+      "baseUrl": "https://cdn.jsdmirror.cn",
+      "strategy": "JSDELIVR_GITHUB",
+      "priority": 20,
+      "enabled": true,
+      "supportsEtag": true,
+      "supportsCacheBucket": true
+    },
+    {
+      "id": "onmicrosoft-jsd",
+      "family": "ONMICROSOFT_JSD",
+      "baseUrl": "https://jsd.onmicrosoft.cn",
+      "strategy": "JSDELIVR_GITHUB",
+      "priority": 30,
+      "enabled": true,
+      "supportsEtag": true,
+      "supportsCacheBucket": true
+    },
+    {
+      "id": "gh-proxy",
+      "family": "GITHUB_PROXY",
+      "baseUrl": "https://gh-proxy.com",
+      "strategy": "RAW_PREFIX_PROXY",
+      "priority": 40,
+      "enabled": true,
+      "supportsEtag": false,
+      "supportsCacheBucket": false
+    },
+    {
+      "id": "ghfast",
+      "family": "GITHUB_PROXY",
+      "baseUrl": "https://ghfast.top",
+      "strategy": "RAW_PREFIX_PROXY",
+      "priority": 50,
+      "enabled": true,
+      "supportsEtag": false,
+      "supportsCacheBucket": false
+    },
+    {
+      "id": "official-jsdelivr",
+      "family": "OFFICIAL_JSDELIVR",
+      "baseUrl": "https://cdn.jsdelivr.net",
+      "strategy": "JSDELIVR_GITHUB",
+      "priority": 60,
+      "enabled": true,
+      "supportsEtag": true,
+      "supportsCacheBucket": true
+    },
+    {
+      "id": "github-raw",
+      "family": "GITHUB_RAW",
+      "baseUrl": "https://raw.githubusercontent.com",
+      "strategy": "GITHUB_RAW",
+      "priority": 70,
+      "enabled": true,
+      "supportsEtag": true,
+      "supportsCacheBucket": false
+    }
+  ]
+}

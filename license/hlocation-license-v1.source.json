@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "audience": "com.hlocation",
+  "licenseId": "hlocation-public",
+  "sequence": 2,
+  "issuedAtEpochSeconds": 1785780890,
+  "notBeforeEpochSeconds": 1785780890,
+  "refreshAfterEpochSeconds": 1786212890,
+  "expiresAtEpochSeconds": 1786385690,
+  "minVersionCode": 26072901,
+  "maxVersionCode": null,
+  "features": [
+    "STATIC_LOCATION",
+    "ROUTE",
+    "JOYSTICK",
+    "WIFI_ENVIRONMENT",
+    "CELL_ENVIRONMENT",
+    "BLE_ENVIRONMENT",
+    "SENSOR_ENVIRONMENT"
+  ]
+}
