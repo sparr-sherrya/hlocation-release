@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
-  "issuedAtEpochSeconds": 1785780890,
-  "refreshAfterEpochSeconds": 1785867290,
-  "staleAfterEpochSeconds": 1786385690,
+  "revision": 3,
+  "issuedAtEpochSeconds": 1785783150,
+  "refreshAfterEpochSeconds": 1785869550,
+  "staleAfterEpochSeconds": 1786387950,
   "repository": {
     "owner": "sparr-sherrya",
     "repo": "hlocation-releases",
@@ -26,7 +26,7 @@
       "baseUrl": "https://cdn.jsdmirror.cn",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 20,
-      "enabled": true,
+      "enabled": false,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
