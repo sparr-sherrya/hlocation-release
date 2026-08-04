@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
-  "issuedAtEpochSeconds": 1785780890,
+  "revision": 3,
+  "issuedAtEpochSeconds": 1785815108,
   "keys": [
     {
       "keyId": "directory-2026-b",
       "usage": "ENDPOINT_DIRECTORY",
       "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEwSUXIRxdqM9xLdRdg1hmCUV6LRVKlit55bw-Hj6dW7Zi_Eg-dARJB8-xMfDKCSNr0AF815ZN4ldEQkkauEDpQ",
-      "notBeforeEpochSeconds": 1785780590,
-      "notAfterEpochSeconds": 1817316890,
+      "notBeforeEpochSeconds": 1785814808,
+      "notAfterEpochSeconds": 1817351108,
       "revoked": false
     },
     {
       "keyId": "license-2026-b",
       "usage": "LICENSE",
       "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEy7yNYkPQvBO3u5EUQZ4h8pvjGFYAIS-q9C6pZCzQ8SXBFUWzIubz7TPibREWWg0LHUcw3kscn2KfZ7LjHLeCQw",
-      "notBeforeEpochSeconds": 1785780590,
-      "notAfterEpochSeconds": 1817316890,
+      "notBeforeEpochSeconds": 1785814808,
+      "notAfterEpochSeconds": 1817351108,
       "revoked": false
     }
   ]

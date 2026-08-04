@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
-  "issuedAtEpochSeconds": 1785804679,
-  "refreshAfterEpochSeconds": 1785891079,
-  "staleAfterEpochSeconds": 1786409479,
+  "revision": 6,
+  "issuedAtEpochSeconds": 1785815108,
+  "refreshAfterEpochSeconds": 1785901508,
+  "staleAfterEpochSeconds": 1786419908,
   "repository": {
     "owner": "sparr-sherrya",
-    "repo": "hlocation-releases",
+    "repo": "hlocation-release",
     "ref": "main"
   },
   "endpoints": [
@@ -16,7 +16,7 @@
       "baseUrl": "https://cdn.jsdmirror.com",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 10,
-      "enabled": false,
+      "enabled": true,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
@@ -26,7 +26,7 @@
       "baseUrl": "https://cdn.jsdmirror.cn",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 20,
-      "enabled": false,
+      "enabled": true,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
@@ -36,7 +36,7 @@
       "baseUrl": "https://jsd.onmicrosoft.cn",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 30,
-      "enabled": false,
+      "enabled": true,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
@@ -66,7 +66,7 @@
       "baseUrl": "https://cdn.jsdelivr.net",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 60,
-      "enabled": false,
+      "enabled": true,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
