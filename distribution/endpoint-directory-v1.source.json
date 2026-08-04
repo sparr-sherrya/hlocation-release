@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": 4,
-  "issuedAtEpochSeconds": 1785803867,
-  "refreshAfterEpochSeconds": 1785890267,
-  "staleAfterEpochSeconds": 1786408667,
+  "revision": 5,
+  "issuedAtEpochSeconds": 1785804679,
+  "refreshAfterEpochSeconds": 1785891079,
+  "staleAfterEpochSeconds": 1786409479,
   "repository": {
     "owner": "sparr-sherrya",
     "repo": "hlocation-releases",
@@ -66,7 +66,7 @@
       "baseUrl": "https://cdn.jsdelivr.net",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 60,
-      "enabled": true,
+      "enabled": false,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
