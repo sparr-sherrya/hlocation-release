@@ -1,32 +1,19 @@
 # HLocation
 
-HLocation 是基于 Android 与 LSPosed 构建的位置和设备环境模拟项目。
+HLocation 是面向 Android 的位置场景工具。
 
-## 技术栈
+本仓库是公开分发仓库，不是生产源码仓库。它用于保存：
 
-- Kotlin
-- Jetpack Compose
-- Material 3
-- Android NDK / C++
-- LSPosed libxposed API 102
-- Binder 与 SharedMemory
-- Kotlin Coroutines 与 StateFlow
-- Room
-- Koin
-- 高德地图 SDK
-- Gradle、AGP、CMake
-- GitHub Actions
+- 已发布的安装产物与完整性 sidecar；
+- 客户端使用的签名验证文件；
+- 与生产实现隔离的脱敏公共契约示例。
 
-## 架构
+## 公共契约
 
-项目采用多模块、分层和多进程架构。
+`public-contracts/` 只描述通用产品边界，采用独立设计的包名、类型名和方法名。它不复制生产源码，也不与内部模块、进程、协议或安全机制建立一一对应关系。
 
-- **应用层**：负责界面、配置、地图、路线和状态管理。
-- **领域层**：承载共享模型、坐标规则和业务策略。
-- **数据层**：负责配置、环境数据和本地持久化。
-- **通信层**：负责不同进程之间的配置和状态同步。
-- **系统运行层**：负责系统进程中的位置与运行时能力。
-- **目标进程层**：负责应用进程中的位置与设备环境适配。
-- **基础设施层**：负责构建、测试、签名、完整性和自动化发布。
+这些文件可用于了解基础的数据建模与接口抽象，但不是可构建的应用、运行时 SDK 或兼容层。
 
-各层通过稳定的数据契约解耦，运行配置以版本化快照在多个进程间同步。
+## Release
+
+可安装产物通过本仓库的 [Releases](https://github.com/sparr-sherrya/hlocation-release/releases) 发布。
