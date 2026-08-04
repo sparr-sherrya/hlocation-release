@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
-  "issuedAtEpochSeconds": 1785783150,
-  "refreshAfterEpochSeconds": 1785869550,
-  "staleAfterEpochSeconds": 1786387950,
+  "revision": 4,
+  "issuedAtEpochSeconds": 1785803867,
+  "refreshAfterEpochSeconds": 1785890267,
+  "staleAfterEpochSeconds": 1786408667,
   "repository": {
     "owner": "sparr-sherrya",
     "repo": "hlocation-releases",
@@ -16,7 +16,7 @@
       "baseUrl": "https://cdn.jsdmirror.com",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 10,
-      "enabled": true,
+      "enabled": false,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
@@ -36,7 +36,7 @@
       "baseUrl": "https://jsd.onmicrosoft.cn",
       "strategy": "JSDELIVR_GITHUB",
       "priority": 30,
-      "enabled": true,
+      "enabled": false,
       "supportsEtag": true,
       "supportsCacheBucket": true
     },
