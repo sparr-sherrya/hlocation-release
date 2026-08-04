@@ -1,18 +1,32 @@
-# HLocation Release
+# HLocation
 
-HLocation 的公开加固构建产物与运行时签名验证文件。
+HLocation 是基于 Android 与 LSPosed 构建的位置和设备环境模拟项目。
 
-- 源码仓库：`heruitr/hlocation`（私有）
-- 验证服务仓库：`sparr-sherrya/hlocation-releases@main`
-- 当前版本：`0.49.0`（selective profile `0.4.0`）
-- Root Key ID：`root-2026-b`
-- Root SPKI SHA-256：`f7275c82dbc89f79195fd59f2c622ea3d66c01ed2768f1dc83ea5186ede17a12`
+## 技术栈
 
-## 文件
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android NDK / C++
+- LSPosed libxposed API 102
+- Binder 与 SharedMemory
+- Kotlin Coroutines 与 StateFlow
+- Room
+- Koin
+- 高德地图 SDK
+- Gradle、AGP、CMake
+- GitHub Actions
 
-- `artifacts/HLocation-v0.49.0-selective.apk`：加固 APK
-- `artifacts/HLocation-v0.49.0-selective.integrity.json`：APK 完整性 sidecar
-- `trust/`、`distribution/`、`license/`、`metadata/`：运行时签名验证文件
-- `SHA256SUMS`：公开文件摘要
+## 架构
 
-APK 需要配合 LSPosed 使用；安装后需重启设备。
+项目采用多模块、分层和多进程架构。
+
+- **应用层**：负责界面、配置、地图、路线和状态管理。
+- **领域层**：承载共享模型、坐标规则和业务策略。
+- **数据层**：负责配置、环境数据和本地持久化。
+- **通信层**：负责不同进程之间的配置和状态同步。
+- **系统运行层**：负责系统进程中的位置与运行时能力。
+- **目标进程层**：负责应用进程中的位置与设备环境适配。
+- **基础设施层**：负责构建、测试、签名、完整性和自动化发布。
+
+各层通过稳定的数据契约解耦，运行配置以版本化快照在多个进程间同步。
