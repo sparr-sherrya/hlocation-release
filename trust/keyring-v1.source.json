@@ -1,22 +1,30 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
-  "issuedAtEpochSeconds": 1785815108,
+  "revision": 4,
+  "issuedAtEpochSeconds": 1787303825,
   "keys": [
+    {
+      "keyId": "artifact-release-1",
+      "usage": "ARTIFACT",
+      "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmriHw-TK-kbzd03Kq2HSKxjkdJnd6L1fXc3dASPvzjXL50RbyzhUu_zlHzC0C93p6RqEtFWDG3P_vAnK3sNg0g",
+      "notBeforeEpochSeconds": 1787303525,
+      "notAfterEpochSeconds": 1818839825,
+      "revoked": false
+    },
     {
       "keyId": "directory-2026-b",
       "usage": "ENDPOINT_DIRECTORY",
       "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEwSUXIRxdqM9xLdRdg1hmCUV6LRVKlit55bw-Hj6dW7Zi_Eg-dARJB8-xMfDKCSNr0AF815ZN4ldEQkkauEDpQ",
-      "notBeforeEpochSeconds": 1785814808,
-      "notAfterEpochSeconds": 1817351108,
+      "notBeforeEpochSeconds": 1787303525,
+      "notAfterEpochSeconds": 1818839825,
       "revoked": false
     },
     {
       "keyId": "license-2026-b",
       "usage": "LICENSE",
       "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEy7yNYkPQvBO3u5EUQZ4h8pvjGFYAIS-q9C6pZCzQ8SXBFUWzIubz7TPibREWWg0LHUcw3kscn2KfZ7LjHLeCQw",
-      "notBeforeEpochSeconds": 1785814808,
-      "notAfterEpochSeconds": 1817351108,
+      "notBeforeEpochSeconds": 1787303525,
+      "notAfterEpochSeconds": 1818839825,
       "revoked": false
     }
   ]
