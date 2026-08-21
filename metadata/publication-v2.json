@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAtEpochSeconds": 1787322093,
   "repository": {
     "owner": "sparr-sherrya",
@@ -8,6 +8,7 @@
   },
   "counters": {
     "keyringRevision": 3,
+    "artifactKeyringRevision": 1,
     "directoryRevision": 11,
     "licenseSequence": 8
   },
@@ -23,6 +24,10 @@
     "license": {
       "keyId": "license-2026-b",
       "spkiSha256": "79f34fec6d4857bed046eeae5ea3f394841d860beb8d4bc5b3a3eac3eccdcfd2"
+    },
+    "artifact": {
+      "keyId": "artifact-release-1",
+      "spkiSha256": "da4b387f7fe5f79e6b2a7cc608482a0065d39f6ac956ec73852d57780ee2928a"
     }
   },
   "artifacts": {
@@ -30,6 +35,8 @@
     "distribution/endpoint-directory-v1.source.json": "145baf8e65c21c73da0aacc1bcbbced0bd49b40a7c1b508951ac9c9eb75b4bf0",
     "license/hlocation-license-v1.json": "09e8c6055a64f43d938465181a94872dd1cd8b37254dab0dac81677207504d07",
     "license/hlocation-license-v1.source.json": "8e7c94c840162569ec1b827671b52ce0615f80ed10f6b389f513ed6580480679",
+    "trust/artifact-keyring-v1.json": "d80779c8472877a64f5550d7ee46d69e33ba99dd5634784b42331e6da8054c26",
+    "trust/artifact-keyring-v1.source.json": "137c6c96adab8b1a8502cc8f93794f03ccab55ad06370601ff07dbcbe90ee78e",
     "trust/keyring-v1.json": "00f77829ca1be87f415835146ab884457125b8f05db1b45a2bcbd9921eae76a3",
     "trust/keyring-v1.source.json": "e29dc6efff9f2914d0adf30c9e6a5776b83c64f566a271e422724bda555a26d2"
   }

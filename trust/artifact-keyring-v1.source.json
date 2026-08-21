@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "issuedAtEpochSeconds": 1787340416,
+  "keys": [
+    {
+      "keyId": "artifact-release-1",
+      "usage": "ARTIFACT",
+      "publicKeySpkiBase64Url": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmriHw-TK-kbzd03Kq2HSKxjkdJnd6L1fXc3dASPvzjXL50RbyzhUu_zlHzC0C93p6RqEtFWDG3P_vAnK3sNg0g",
+      "notBeforeEpochSeconds": 1787340116,
+      "notAfterEpochSeconds": 1818876416,
+      "revoked": false
+    }
+  ]
+}
