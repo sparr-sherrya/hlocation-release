@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtEpochSeconds": 1791599884,
+  "generatedAtEpochSeconds": 1791945772,
   "repository": {
     "owner": "sparr-sherrya",
     "repo": "hlocation-release",
@@ -8,8 +8,8 @@
   },
   "counters": {
     "keyringRevision": 3,
-    "directoryRevision": 25,
-    "licenseSequence": 22
+    "directoryRevision": 26,
+    "licenseSequence": 23
   },
   "signingKeys": {
     "root": {
@@ -26,10 +26,10 @@
     }
   },
   "artifacts": {
-    "distribution/endpoint-directory-v1.json": "aef3b2bd2700ad56d89d9dac2f8054c6dba42561c188bf011ba6a3da8e191819",
-    "distribution/endpoint-directory-v1.source.json": "9f55c461260003fa3e2f661bd6fe10a8426af4ebdaad299c038b3103b775f4b7",
-    "license/hlocation-license-v1.json": "287a0643586f5b99a4b78994e27680183a13315795830fc5b4ab442a4d982b03",
-    "license/hlocation-license-v1.source.json": "4f7e12adbd2179d6d259619ea7311ff0f6933daa6e92cdd69cea2978f90edc0a",
+    "distribution/endpoint-directory-v1.json": "845a871159707be7760319883e8ad6b7980ffb6e6e842dcc3b7ab5e36b9c5356",
+    "distribution/endpoint-directory-v1.source.json": "051b19c85bbd02957259f4e158ef3502b941f81e7b2982deedf897f7e56fd04c",
+    "license/hlocation-license-v1.json": "4de30bd492433f99285cf90d047b24dd72c67a534025fceff60282cc612c8084",
+    "license/hlocation-license-v1.source.json": "8375b4600a3d70e54fba1078b971d0c4454d6b74da00aeec29398c85622824f2",
     "trust/keyring-v1.json": "00f77829ca1be87f415835146ab884457125b8f05db1b45a2bcbd9921eae76a3",
     "trust/keyring-v1.source.json": "e29dc6efff9f2914d0adf30c9e6a5776b83c64f566a271e422724bda555a26d2"
   }
