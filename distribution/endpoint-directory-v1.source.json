@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": 29,
-  "issuedAtEpochSeconds": 1792896808,
-  "refreshAfterEpochSeconds": 1792983208,
-  "staleAfterEpochSeconds": 1793501608,
+  "revision": 30,
+  "issuedAtEpochSeconds": 1793241147,
+  "refreshAfterEpochSeconds": 1793327547,
+  "staleAfterEpochSeconds": 1793845947,
   "repository": {
     "owner": "sparr-sherrya",
     "repo": "hlocation-release",
